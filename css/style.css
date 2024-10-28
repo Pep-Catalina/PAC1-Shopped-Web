@@ -1,0 +1,21 @@
+/* HEADER */
+
+
+/* NAV */
+
+
+/* BANNER */
+
+
+/* MAIN */
+
+
+/* FOOTER */
+.divFooter{
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.divFooter a{
+    text-decoration: none;
+}

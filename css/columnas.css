@@ -7,18 +7,19 @@
 }
 
 header {
-    height: 10vh;
+    height: 20vh;
 
 }
-nav{
-  height: 5vh;
+#banner{
+  height: 20vh;
 }
-aside, main {
-    height: 70vh;
+
+main{
+  height: 40vh;
 }
 
 footer {
-    height: 15vh;
+    height: 20vh;
 }
 
 
