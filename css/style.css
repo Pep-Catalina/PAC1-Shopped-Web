@@ -1,6 +1,48 @@
 /* HEADER */
-
-
+header {
+    display: flex;
+    width: 100%;
+}
+h1{
+    color: black;
+}
+header h2{
+    color: #F29A2E;
+}
+nav {
+    display: none;
+}
+.titol {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headermenu {
+    flex: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.menuhamburguesa {
+    flex: 0;
+    display: flex;
+    padding: 5vw;
+    justify-self: center;
+    align-items: center;
+}
+#logo {
+    height: 170px;
+    width: 170px;
+}
+.lupa {
+    display: none;
+}
+#lupa {
+    width: 20px;
+    height: 20px;
+}
 /* NAV */
 
 
@@ -12,10 +54,22 @@
 
 /* FOOTER */
 .divFooter{
-    width: 33%;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    padding: 1.5em;
 }
 .divFooter a{
     text-decoration: none;
+    padding: 1em;
+    color: black;
+}
+.divFooter a:hover{
+    color: #F29A2E;
+}
+.ico_footer{
+    width: 1.75em;
 }

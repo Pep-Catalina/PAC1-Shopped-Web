@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
     <head>
         <title>Plantilla</title>
         <meta charset="UTF-8">
@@ -9,24 +9,37 @@
         <link rel="stylesheet" href="./css/columnas.css">
     </head>
     <body>
-       <header><!--Capçalera pagina-->
-            <div>
-                <img src="img/" alt="">
+       <header class="col-12"><!--Capçalera pagina-->
+            <div class="headermenu">
+                <a href="index.html">
+                    <img id="logo" src="./img/logo.webp" alt="Logo">
+                </a>
+            </div>
+            <div class="titol">
+                <h1>AUTOMOTIVE</h1>
+                <h2>Luxury Car</h2>
+            </div>
+            <div class="lupa">
+                <input type="search" class="input" placeholder="Search">
+                <img id="lupa" src="./img/ico/lupa.png" alt="Icono Lupa">
             </div>
             <nav>
                 <ul>
-                    <li><a href="#inicio">Cataleg de producte</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="./catalog.html">Cataleg de producte</a></li>
+                    <li><a href="./contact.html">Contacte</a></li>
                 </ul>
             </nav>
+            <div class="menuhamburguesa">
+                <img src="./img/ico/menu-hamburger.svg">
+            </div>
             <div>
-                <img src="img/" alt="">
+                <img src="./img/" alt="">
             </div>
        </header>
-       <div id="banner">
-            <img src="img/" alt="">
+       <div id="banner" class="col-12">
+            <img src="./img/" alt="">
        </div>
-       <main><!--Contingut/Cos-->
+       <main class="col-12"><!--Contingut/Cos-->
             <div>
                 <h2></h2>
             </div>
@@ -36,20 +49,20 @@
                 <div></div>
             </div>
        </main>
-       <footer><!--Peu de pagina-->
-            <div><!--contacte-->
+       <footer class="flex column col-12"><!--Peu de pagina-->
+            <div class="divFooter"><!--Contacte-->
                 <h4>Contacte:</h4>
                 <a href="mailto:info@gmail.com">info@gmail.com</a>
                 <a href="tel:+34987654321">+34 987 65 43 21</a>
-                <a href=""></a>
             </div>
-            <div><!--xarxes socials-->
+            <div class="divFooter"><!--Xarxes socials-->
                 <h4>Xarxes Socials:</h4>
-                <a href="#">Instagram</a>
-                <a href="#">TikTok</a>
-                <a href="#">FaceBook</a>
+                <img class="ico_footer" src="./img/ico/icon_instagram.webp" alt="Icono Instagram"><a href="#">Instagram</a>
+                <img class="ico_footer" src="./img/ico/icon_tiktok.webp" alt="Icono Facebook"><a href="#">Tiktok</a>
+                <img class="ico_footer" src="./img/ico/icon_facebook.webp" alt="Icono Facebook"><a href="#">Facebook</a>
+
             </div>
-            <div><!--politiques-->
+            <div class="divFooter"><!--Politiques-->
                 <h4>Politiques:</h4>
                 <a href="#">Condicions d'us i venta</a>
                 <a href="#">Avis de Privacitat</a>
