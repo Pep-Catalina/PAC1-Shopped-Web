@@ -50,8 +50,30 @@ nav {
 
 
 /* MAIN */
-
-
+.tenda {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.produc {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.produc img, .produc h3, .produc p, .produc button {
+    padding: 7px;
+}
+.botonindex {
+    width: 15%;
+    background-color: #F29A2E;
+    border-radius: 20px;
+}
 /* FOOTER */
 .divFooter{
     width: 100%;
@@ -71,5 +93,9 @@ nav {
     color: #F29A2E;
 }
 .ico_footer{
-    width: 1.75em;
+    width: 25px;
+    height: 25px;
+}
+.icoDiv {
+    align-items:center;
 }
