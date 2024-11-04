@@ -4,7 +4,8 @@
     padding: 0;
     border: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    overflow-x: hidden;
+    text-decoration: none;
 }
 
 body {
@@ -30,7 +31,7 @@ main{
 }
 
 footer {
-  height: 81vh;
+  
   background-color: #F2EDE4;
 }
 
@@ -90,6 +91,7 @@ footer {
   .col-md-10 {width: 83.33%;}
   .col-md-11 {width: 91.66%;}
   .col-md-12 {width: 100%;}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -106,6 +108,74 @@ footer {
   .col-lg-10 {width: 83.33%;}
   .col-lg-11 {width: 91.66%;}
   .col-lg-12 {width: 100%;}
+  
+  /* PRODUCTOS */
+  .tenda{
+    flex-direction: row;
+  }
+  .fotoproducte {
+    width: 30vw;
+    height: 23vw;
+  }
+
+  /* HEADER */
+  .headermenu {
+    display: flex;
+    flex: 2;
+  }
+  .lupa {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .lupa input{
+    border-radius: 16px;
+  }
+  nav, nav ul {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .menuhamburguesa {
+    display: none;
+  }
+  .titol {
+    flex: 3;
+  }
+  
+  /* FOOTER */
+
+  footer{
+    flex-direction: row;
+  }
+
+  /* BANNER */
+  #banner{
+    background-image: url(./../img/banner2.png);
+  }
+
+
+  /* Contacto */
+  .infoMain {
+    display: flex;
+  }
+  .divForum {
+    flex: 1;
+  }
+  .divInfo {
+    flex: 1;
+  }
+  .maps {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .divInfo section{
+    font-size: x-large;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -122,4 +192,9 @@ footer {
   .col-xl-10 {width: 83.33%;}
   .col-xl-11 {width: 91.66%;}
   .col-xl-12 {width: 100%;}
+
+  /* BANNER */
+  #banner{
+    background-image: url(./../img/banner3.png);
+  }
 }

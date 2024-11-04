@@ -3,12 +3,108 @@
     <head>
         <title>Plantilla</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/tamaños.css">
+        <link rel="stylesheet" href="./css/columnas.css">
+        <link rel="stylesheet" href="./css/contact.css">
     </head>
     <body>
-       <header><!--Capçalera pagina--></header>
+        <header class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><!--Capçalera pagina-->
+            <div class="headermenu">
+                <a href="./index.html">
+                    <img id="logo" src="./img/logo.webp" alt="Logo">
+                </a>
+            </div>
+            <div class="titol">
+                <h1>AUTOMOTIVE</h1>
+                <h2>Luxury Car</h2>
+            </div>
+            <div class="lupa">
+                <img id="lupa" src="./img/ico/lupa.png" alt="Icono Lupa">
+                <input type="search" class="input" placeholder="Search">
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./catalog.html">Cataleg de producte</a></li>
+                    <li><a href="./contact.html">Contacte</a></li>
+                </ul>
+            </nav>
+            <div class="menuhamburguesa">
+                <img class="" src="./img/ico/menu-hamburger.svg">
+            </div>
+            <div>
+                <img src="./img/" alt="">
+            </div>
+       </header>
        <nav><!--Barra navegacio--></nav>
-       <main><!--Contingut/Cos--></main>
-       <footer><!--Peu de pagina--></footer>
+       <main class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><!--Contingut/Cos-->
+            <div class="contentMain">
+                <div>
+                    <h2>Contacta amb nosaltres:</h2>
+                </div>
+                <div class="infoMain">
+                    <div class="divForum">
+                        <form action="./formulari.php" method="post">
+                            <div class="divcontacto column">
+                                <label for="name">Nom:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="divcontacto column">
+                                <label for="email">Mail:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div  class="divcontacto column">
+                                <label for="message">Missatge:</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div> 
+                            <button type="submit">Enviar</button>
+                          </form>
+                    </div>
+                    <div class="divInfo">
+                        <section>
+                            <h3>Información de Contacto:</h3>
+                            <p><strong>Teléfono:</strong> +34 987 65 43 21</p>
+                            <p><strong>Dirección:</strong> Carrer Monserrat Roig 6, Granollers</p>
+                            <p><strong>Correo Electrónico:</strong> info@automotive.com</p>
+                          </section>                      
+                    </div>
+                </div>
+                <div class="maps">
+                    <h2>Ens pots trobar:</h2>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7078.931715813364!2d2.2844457764478934!3d41.593595083178606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7ebf8276e61%3A0xb334aa871aab4ba7!2sC.%20Montserrat%20Roig%2C%206%2C%2008402%20Granollers%2C%20Barcelona!5e1!3m2!1ses!2ses!4v1730736471717!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>  
+       </main>
+       <footer class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><!--Peu de pagina-->
+        <div class="divFooter"><!--Contacte-->
+            <h4>Contacte:</h4>
+            <a href="mailto:info@gmail.com">info@automotive.com</a>
+            <a href="tel:+34987654321">+34 987 65 43 21</a>
+            <a href="https://maps.app.goo.gl/N5V5kwsc4d26CFtLA">Carrer Monserrat Roig 6, Granollers</a>
+        </div>
+        <div class="divFooter"><!--Xarxes socials-->
+            <h4>Xarxes Socials:</h4>
+            <div class="icoDiv flex row">
+                <img class="ico_footer" src="./img/ico/icon_instagram.webp" alt="Icono Instagram"><a href="#">Instagram</a>
+            </div>
+            <div class="icoDiv flex row">
+                <img class="ico_footer" src="./img/ico/icon_tiktok.webp" alt="Icono Facebook"><a href="#">Tiktok</a>
+            </div>
+            <div class="icoDiv flex row">
+                <img class="ico_footer" src="./img/ico/icons8-facebook-240.svg" alt="Icono Facebook"><a href="#">Facebook</a>
+            </div>
+        </div>
+        <div class="divFooter"><!--Politiques-->
+            <h4>Politiques:</h4>
+            <a href="#">Condicions d'us i venta</a>
+            <a href="#">Avis de Privacitat</a>
+            <a href="#">Area Legal</a>
+        </div>
+   </footer>
     </body>
+
 </html>

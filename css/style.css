@@ -12,6 +12,14 @@ header h2{
 nav {
     display: none;
 }
+nav ul li a{
+    color: black;
+    transition: all 0.75s ease-out;
+}
+nav ul li a:hover{
+    color: #F29A2E;
+       
+}
 .titol {
     flex: 1;
     display: flex;
@@ -25,8 +33,10 @@ nav {
     justify-content: center;
     align-items: center;
 }
+.lupa input {
+    height: 20%;
+}
 .menuhamburguesa {
-    flex: 0;
     display: flex;
     padding: 5vw;
     justify-self: center;
@@ -50,6 +60,13 @@ nav {
 
 
 /* MAIN */
+main{
+    padding-bottom: 3em;
+}
+main h2{
+    padding: 1.5em;
+
+}
 .tenda {
     height: 100%;
     width: 100%;
@@ -64,17 +81,40 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;   
 }
-.produc img, .produc h3, .produc p, .produc button {
+.fotoproducte {
+    width: 100vw;
+}
+.produc img, .produc h3, .produc div p, .produc div button {
     padding: 7px;
 }
+.produc div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.produc div p{
+    width: 25%;
+}
+
 .botonindex {
-    width: 20%;
+    width: 25%;
     background-color: #F29A2E;
     border-radius: 20px;
+    transition: all 0.75s;
+    
 }
+.botonindex:hover{
+    background-color: #F2D0A7;
+}
+
 /* FOOTER */
+footer{
+    display: flex;
+    flex-direction: column;
+}
 .divFooter{
     width: 100%;
     justify-content: center;
@@ -88,6 +128,7 @@ nav {
     text-decoration: none;
     padding: 1em;
     color: black;
+    transition: all 0.75s;
 }
 .divFooter a:hover{
     color: #F29A2E;
