@@ -126,7 +126,7 @@ footer{
 }
 .divFooter a{
     text-decoration: none;
-    padding: 1em;
+    padding: 0.30em;
     color: black;
     transition: all 0.75s;
 }
