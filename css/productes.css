@@ -1,0 +1,38 @@
+#flecha {
+    height:50px;
+    width:50px
+}
+.containerMain {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.containerProduct {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.cajaFlecha {
+    display:flex;
+    padding: 1em;
+    
+}
+.producto {
+    width: 100%;
+}
+
+.botonProd {
+    width: 25%;
+    background-color: #F29A2E;
+    border-radius: 20px;
+    transition: all 0.75s;
+    
+}
+.botonProd:hover{
+    background-color: #F2D0A7;
+}
+
+.separat, .separat h3 {
+    justify-content: space-evenly;
+    padding: 1em 0;
+}

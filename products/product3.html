@@ -1,14 +1,89 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
     <head>
         <title>Plantilla</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../css/style.css">
+        <link rel="stylesheet" href="./../css/tamaños.css">
+        <link rel="stylesheet" href="./../css/columnas.css">
+        <link rel="stylesheet" href="./../css/productes.css">
     </head>
     <body>
-       <header><!--Capçalera pagina--></header>
-       <nav><!--Barra navegacio--></nav>
-       <main><!--Contingut/Cos--></main>
-       <footer><!--Peu de pagina--></footer>
+       <header class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><!--Capçalera pagina-->
+            <div class="headermenu">
+                <a href="./../index.html">
+                    <img id="logo" src="./../img/logo.webp" alt="Logo">
+                </a>
+            </div>
+            <div class="titol">
+                <h1>AUTOMOTIVE</h1>
+                <h2>Luxury Car</h2>
+            </div>
+            <div class="lupa">
+                <img id="lupa" src="./../img/ico/lupa.png" alt="Icono Lupa">
+                <input type="search" class="input" placeholder="Search">
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./../catalog.html">Cataleg de producte</a></li>
+                    <li><a href="./../contact.html">Contacte</a></li>
+                </ul>
+            </nav>
+            <div class="menuhamburguesa">
+                <img src="./../img/ico/menu-hamburger.svg" alt="menu">
+            </div>
+       </header>
+       <main class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><!--Contingut/Cos-->
+        <div class="containerMain">
+            <div class="cajaFlecha">
+                <a href="./../catalog.html"><img id="flecha" src="./../img/ico/flecha.svg" alt="Flexa"></a>
+            </div>
+            <div class="containerProduct">
+                <div class="fotoproduct">
+                    <img class="producto" src="./../img/products/Producte3.webp" alt="Producte1">
+                </div>
+                <div class="textoproduct">
+                    <section class="flex separat column">
+                        <div class="flex column">
+                            <h3>Porsche 911 (964) Carrera 4 Leichbau 1990</h3>
+                            <p>Descripcio</p>
+                        </div>
+                        <div class="flex separat row">
+                            <p>241.90€</p>
+                            <button class="botonProd">Comprar</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>   
+       </main>
+       <footer class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"><!--Peu de pagina-->
+            <div class="divFooter"><!--Contacte-->
+                <h4>Contacte:</h4>
+                <a href="mailto:info@gmail.com">info@automotive.com</a>
+                <a href="tel:+34987654321">+34 987 65 43 21</a>
+                <a href="https://maps.app.goo.gl/N5V5kwsc4d26CFtLA">Carrer Monserrat Roig 6, Granollers</a>
+            </div>
+            <div class="divFooter"><!--Xarxes socials-->
+                <h4>Xarxes Socials:</h4>
+                <div class="icoDiv flex row">
+                    <img class="ico_footer" src="./../img/ico/icon_instagram.webp" alt="Icono Instagram"><a href="#">Instagram</a>
+                </div>
+                <div class="icoDiv flex row">
+                    <img class="ico_footer" src="./../img/ico/icon_tiktok.webp" alt="Icono Facebook"><a href="#">Tiktok</a>
+                </div>
+                <div class="icoDiv flex row">
+                    <img class="ico_footer" src="./../img/ico/icons8-facebook-240.svg" alt="Icono Facebook"><a href="#">Facebook</a>
+                </div>
+            </div>
+            <div class="divFooter"><!--Politiques-->
+                <h4>Politiques:</h4>
+                <a href="#">Condicions d'us i venta</a>
+                <a href="#">Avis de Privacitat</a>
+                <a href="#">Area Legal</a>
+            </div>
+       </footer>
     </body>
 </html>

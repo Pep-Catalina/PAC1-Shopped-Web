@@ -176,6 +176,24 @@ footer {
   .divInfo section{
     font-size: x-large;
   }
+
+  /*Producte*/
+  .containerProduct {
+    flex-direction: row !important; 
+    justify-content: center;
+  }
+  .textoproduct {
+    padding: 0 12vw;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+  }
+  .producto {
+    width: 40vw !important;
+  }
+  .botonProd {
+    width: 50% !important;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
