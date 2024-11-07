@@ -74,7 +74,6 @@ main h2{
     flex-direction: column;
 }
 .produc {
-    flex: 1;
     display: flex;
     height: 100%;
     width:100%;
@@ -82,6 +81,18 @@ main h2{
     justify-content: center;
     flex-direction: column;
     padding: 20px;   
+}
+.product {
+    display: flex;
+    height: 100%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;   
+}
+.fotoproducteprincipal {
+    width: 100vw;
 }
 .fotoproducte {
     width: 100vw;
@@ -98,7 +109,18 @@ main h2{
 .produc div p{
     width: 25%;
 }
+.product img, .product h3, .product div p, .product div button {
+    padding: 7px;
+}
+.product div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 
+}
+.product div p{
+    width: 25%;
+}
 .botonindex {
     width: 25%;
     background-color: #F29A2E;
