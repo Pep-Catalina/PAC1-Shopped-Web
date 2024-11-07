@@ -91,7 +91,6 @@ footer {
   .col-md-10 {width: 83.33%;}
   .col-md-11 {width: 91.66%;}
   .col-md-12 {width: 100%;}
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -112,6 +111,7 @@ footer {
   /* PRODUCTOS */
   .tenda{
     flex-direction: row;
+    display: flex;
   }
   .fotoproducte {
     width: 30vw;
@@ -183,7 +183,6 @@ footer {
     justify-content: center;
   }
   .textoproduct {
-    padding: 0 12vw;
     display: flex;
     justify-content: center;
     font-size: large;
