@@ -20,10 +20,17 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
+    
+}
+.divForum form input{
+    border: black solid 1px;
+    height: 2em;
+}
+.divForum form textarea{
+    border: black solid 1px;
 }
 .divForum form  button{
-
-    height: 2.5em;
+    height: 3em;
     background-color: #F29A2E;
     border-radius: 20px;
     transition: all 0.75s;
